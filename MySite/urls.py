@@ -19,7 +19,7 @@ urlpatterns = patterns('',
     (r'^home/$', home),
     (r'^$', home),
     (r'^register/$', user_register,),
-    (r'^thanks/$', thank_you),
+    #(r'^thanks/$', thank_you),
 )
 
 urlpatterns += staticfiles_urlpatterns()
